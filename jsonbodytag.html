@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add javascript code inside body section</title>
+</head>
+<body>
+    <h2>
+        Add javascript code inside body section
+    </h2>
+    <h3 id="demo" style="color:crimson;">
+        Content will change when click on button
+    </h3>
+    <button type="button" onclick="newFun()">
+        Click Here
+    </button>
+    <script>
+       function newFun(){
+        document.getElementById("demo").innerHTML="Comments received from script tag which is present inside of body section";
+       }
+    </script>
+</body>
+</html>

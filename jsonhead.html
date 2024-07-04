@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add javacript code inside header section </title>
+    <script>
+        function myfun(){
+            document.getElementById("demo").innerHTML="Comments received from script tag which is present inside of header section";
+        }
+    </script>
+</head>
+<body>
+
+    <h2>
+        Add javacript code inside header section
+    </h2>
+
+    <h3 id="demo" style="color: blue;">
+            content will change when click on button
+    </h3>
+
+    <button type="button" onclick="myfun()">
+        Click here.
+    </button>
+    
+</body>
+</html>
